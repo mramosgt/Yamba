@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <!-- Support Library -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <!-- Action Bar -->
+    <style name="MyActionBar"
+        parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#2196F3</item>
+        <!-- Support Library -->
+        <item name="background">@drawable/blue_actionBar</item>
+    </style>
+
+
+</resources>

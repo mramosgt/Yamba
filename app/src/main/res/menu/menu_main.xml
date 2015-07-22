@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="siissa.net.yamba.ui.MainActivity">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_tweet"
+        android:title="@string/action_tweet"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="always|withText" />
+    <item android:id="@+id/action_refresh"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="always"
+        android:title="@string/action_refresh" />
+    <item android:id="@+id/action_purge"
+        android:title="@string/action_purge"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_delete" />
+
+</menu>
